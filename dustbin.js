@@ -10,8 +10,8 @@ class Dustbin{
     }
 
     display(){
-        var pos=this.body.postion;
-        fill("white");
+        var pos=this.body.position;
+        fill("yellow");
         rect(pos.x, pos.y, this.width, this.height);
     }
 }
